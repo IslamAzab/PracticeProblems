@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/two-sum/
-class Solution {
+class Solution1 {
     public int[] twoSum(int[] nums, int target) {
         int n = nums.length;
         int[] valueDiff = new int[n];
