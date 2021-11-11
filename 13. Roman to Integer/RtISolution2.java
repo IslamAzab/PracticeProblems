@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/roman-to-integer/
-class Solution2 { 
+class RtISolution2 {
     public int romanToInt(String s) {
         char[] charArray = s.toCharArray();
         int n = charArray.length;
