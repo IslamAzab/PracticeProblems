@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,11 +18,12 @@ class Solution2 {
 
         return null;
     }
-}
 
-//class Main {
-//
-//  public static void main(String[] args) {
-//    new Solution2().twoSum(new int[] {3,3}, 6);
-//  }
-//}
+   public static void main(String[] args) {
+        System.out.println(
+            Arrays.toString(
+                new Solution2().twoSum(new int[] {3,0,3}, 6)
+            )
+        );
+   }
+}
