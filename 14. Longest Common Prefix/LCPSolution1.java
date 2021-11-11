@@ -19,7 +19,8 @@ class LCPSolution1 {
       System.out.println(
           new LCPSolution1().longestCommonPrefix(
 //              new String[] {"flower","flow","flight"}
-              new String[] {"dog", "racecar", "car"}
+//              new String[] {"dog", "racecar", "car"}
+              new String[] {"flow", "fl"}
           )
       );
     }
